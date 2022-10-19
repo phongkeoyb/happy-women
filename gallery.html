@@ -1,105 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="icon" type="image/png" href="./img/CILKGax.png" />
-        <!-- Tiêu đề của trang ảnh kĩ niệm -->
-        <title>Ảnh kĩ niệm</title>
-        <link rel="stylesheet" href="./css/gallery.css" />
-        <link rel="stylesheet" href="./css/style.css" />
-    </head>
-    <body>
-        <div class="buttons">
-            <a href="index.html" class="btn btn-bir">Sinh nhật</a>
-            <a href="timeline.html" class="btn btn-timeline">Dòng thời gian</a>
-            <a href="gallery.html" class="btn btn-gallery">Ảnh kĩ niệm</a>
-        </div>
 
-        <!-- 6. Thay tất cả bằng hình ảnh của bạn -->
-        <div class="gallery" id="gallery">
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic1.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic2.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic3.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic4.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic5.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic6.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic7.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic8.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic9.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic10.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic11.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic12.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic13.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic14.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic15.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic16.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic17.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic18.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic19.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic20.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic21.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic22.jpeg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic23.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="./img/pic25.jpg" alt="" /></div>
-            </div>
-        </div>
-        <!-- Phần nhạc -->
-        <audio id="player" autoplay loop>
-            <source src="./music/music.mp3" type="audio/mp3" />
-        </audio>
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="./img/CILKGax.png" />
+    <!-- Tiêu đề của trang ảnh kĩ niệm -->
+    <title>Ảnh kĩ niệm</title>
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-    <script src="./js/gallery.js"></script>
+<body>
+    <div class="buttons">
+        <a href="index.html" class="btn btn-home">Home</a>
+        <a href="wish.html" class="btn btn-timeline">Lời chúc</a>
+        <a href="video.html" class="btn btn-bir">Clip vui</a>
+        <a href="gallery.html" class="btn btn-gallery">Ảnh kỉ niệm</a>
+    </div>
+
+    <!-- 6. Thay tất cả bằng hình ảnh của bạn -->
+    <div class="gallery" id="gallery">
+        <div class="gallery-item">
+            <div class="content"><img src="./img/final.png" alt="final.png" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic1.JPG" alt="1" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic2.JPG" alt="2" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic3.JPG" alt="3" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic4.JPG" alt="4" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic5.JPG" alt="5" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic6.JPG" alt="6" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic7.JPG" alt="7" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic8.JPG" alt="8" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic9.JPG" alt="9" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic10.JPG" alt="10" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic11.JPG" alt="11" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic12.JPG" alt="12" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic13.JPG" alt="13" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic14.JPG" alt="14" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic15.JPG" alt="15" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic16.JPG" alt="16" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic17.JPG" alt="17" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic18.JPG" alt="18" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic19.JPG" alt="19" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic20.JPG" alt="22" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic21.JPG" alt="21" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic22.jpeg" alt="22" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic23.JPG" alt="23" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic24.JPG" alt="24" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic25.JPG" alt="25" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic26.JPG" alt="26" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic27.JPG" alt="27" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic28.jpeg" alt="28" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic29.JPG" alt="29" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic30.JPG" alt="30" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic31.JPG" alt="31" /></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./img/pic32.JPG" alt="32" /></div>
+        </div>
+    </div>
+    <!-- Phần nhạc -->
+    <audio id="player" autoplay loop>
+        <source src="./music/la-con-gai-that-tuyet.mp3" type="audio/mp3" />
+    </audio>
+</body>
+
+<script src="./js/gallery.js"></script>
+
 </html>
