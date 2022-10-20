@@ -15,7 +15,7 @@ a {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    /* background-size: cover; */
+    background-size: cover;
     /* background-position-y: -18rem; */
 }
 .buttons {
@@ -130,8 +130,8 @@ a {
 }
 
 .cover {
-    width: 340px;
-    height: 340px;
+    width: 240px;
+    height: 240px;
    
     box-shadow: 0 0 30px #eee;
     position: absolute;
